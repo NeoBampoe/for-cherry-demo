@@ -1,0 +1,52 @@
+#bg-video {
+  position: fixed;      
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;     
+  z-index: -1;           
+}
+
+
+.container {
+
+   padding: 24px;
+  position: relative; 
+  text-align: center;
+  margin-top: 50px;
+  color: white;        
+  font-family: Arial, sans-serif;
+
+}
+
+h1 {
+	color: white;
+  font-size: 16px;
+  margin-top: 0;
+  font-size: 1.6rem;
+}
+
+strong {
+  color: #555;
+  line-height: 1.5;
+}
+
+img {
+
+	border-radius: 40px;
+}
+
+
+.container button {
+  margin-top: 16px;
+  padding: 14px;
+  width: 80%;
+  border: none;
+  border-radius: 14px;
+  background: #ff4d6d;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
